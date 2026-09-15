@@ -1,6 +1,15 @@
 body {
     background-color: lightseagreen;
 }
-section {
+h1{ 
+font-weight: bold;    
+}
+h2{
+    font-weight: bolder;
+}
+p {
     font-style: italic;
+}
+ul{
+    font-size: medium;
 }
