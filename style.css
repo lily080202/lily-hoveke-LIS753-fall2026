@@ -1,5 +1,5 @@
 body {
-    background-color: lightseagreen;
+    background-color: rgb(200, 246, 243);
 }
 h1{ 
 font-weight: bold;    
@@ -12,4 +12,17 @@ p{
 }
 li{
     font-size: medium;
+}
+.about-section{
+    background-color: rgb(227, 127, 210);
+    color: white;
+    padding: 22px;
+    margin: 18px;
+    width: 200px;
+}
+
+#testing{
+    background-color: rgb(240, 251, 33);
+    color: rgb(0, 0, 0);
+    border: 8px solid fuchsia;
 }
