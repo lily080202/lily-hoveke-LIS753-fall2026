@@ -22,7 +22,15 @@ li{
 }
 
 #testing{
-    background-color: rgb(240, 251, 33);
-    color: rgb(0, 0, 0);
-    border: 8px solid fuchsia;
+    background-color: rgb(250, 254, 171);
+    color: black;
+    border: 8px solid rgb(246, 191, 246);
+}
+
+#about-us{
+    background-color: rgb(246, 191, 246);
+    color: white;
+    border: 8px solid rgb(246, 191, 246);
+    margin: 18px;
+    padding: 22px;
 }
