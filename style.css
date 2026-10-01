@@ -34,3 +34,16 @@ li{
     margin: 18px;
     padding: 22px;
 }
+#Main-Menu ul{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+list-style-type:circle;
+}
+#Main-Menu ul li a{ 
+    padding: 8px 20px;
+    background-color: rgb(139, 153, 244);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+};
