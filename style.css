@@ -23,7 +23,7 @@ li {
 }
 
 .about-section {
-    background-color: rgb(227, 127, 210);
+    background-color: rgb(246, 191, 246);
     color: white;
     padding: 22px;
     margin: 18px;
@@ -66,14 +66,18 @@ li {
 }
 
 .introduction {
-    background-color: rgb(227, 127, 210);
+    background-color: rgb(246, 191, 246);
     color: white;
     padding: 22px;
     margin: 18px;
     width: 200px;
 }
 
-p1 {
-    font-style: normal;
-    font-size: medium;
+#introduction-section {
+    background-color: rgb(246, 191, 246);
+    color: white;
+    border: 8px solid rgb(246, 191, 246);
+    padding: 22px;
+    margin: 18px;
+    width: 200px;
 }
