@@ -2,10 +2,13 @@ body {
     background-color: rgb(200, 246, 243);
 }
 h1{ 
-font-weight: bold;    
+font-weight: bold;
+text-align: center;
+font-size:larger    
 }
 h2{
     font-weight: bolder;
+    font-size:larger
 }
 p{
     font-style: italic;
@@ -38,10 +41,10 @@ li{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-list-style-type:circle;
+list-style-type: none;
 }
 #Main-Menu ul li a{ 
-    padding: 8px 20px;
+    padding: 10px 20px;
     background-color: rgb(139, 153, 244);
     color: white;
     text-decoration: none;
