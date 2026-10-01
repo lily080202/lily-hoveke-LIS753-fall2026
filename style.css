@@ -1,22 +1,28 @@
 body {
     background-color: rgb(200, 246, 243);
 }
-h1{ 
-font-weight: bold;
-text-align: center;
-font-size:larger    
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+    margin: 32px;
 }
-h2{
+
+h2 {
     font-weight: bolder;
-    font-size:larger
+    font-size: larger;
 }
-p{
+
+p {
     font-style: italic;
 }
-li{
+
+li {
     font-size: medium;
 }
-.about-section{
+
+.about-section {
     background-color: rgb(227, 127, 210);
     color: white;
     padding: 22px;
@@ -24,29 +30,33 @@ li{
     width: 200px;
 }
 
-#testing{
+#testing {
     background-color: rgb(250, 254, 171);
     color: black;
     border: 8px solid rgb(246, 191, 246);
 }
 
-#about-us{
+#about-us {
     background-color: rgb(246, 191, 246);
     color: white;
     border: 8px solid rgb(246, 191, 246);
     margin: 18px;
     padding: 22px;
 }
-#Main-Menu ul{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-list-style-type: none;
+
+#Main-Menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 14px;
+    list-style-type: none;
+    margin: 32px;
 }
-#Main-Menu ul li a{ 
+
+#Main-Menu ul li a {
     padding: 10px 20px;
     background-color: rgb(139, 153, 244);
     color: white;
     text-decoration: none;
     text-align: center;
-};
+}
