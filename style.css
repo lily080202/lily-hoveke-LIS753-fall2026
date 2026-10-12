@@ -110,7 +110,7 @@ header {
 }
 h1 {
   text-align: center;
-  color: black;
+  color: white;
   line-height: 80px;
   margin: 1px 10px;
   font-size: 90px;
@@ -164,4 +164,9 @@ article {
   }
 .button:hover{
   background-color: rgb(161, 196, 240);
+}
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
