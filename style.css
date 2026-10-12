@@ -102,7 +102,7 @@ body {
   color: white;
 }
 header {
-  background: green;
+  background: rgb(25, 4, 123);
   height: 150px;
   text-align: center;
 }
@@ -111,7 +111,7 @@ h1 {
   color: black;
   line-height: 80px;
   margin: 1px 10px;
-  font-size: largest;
+  font-size: 200px;
 }
   h2 {
     text-align: center;
@@ -134,13 +134,15 @@ section {
 article {
   padding: 10px;
   margin: 10px;
-  background: green;
+  background: rgb(25, 4, 123);
   word-spacing: 0.5em;
+  flex: 1;
 }
   footer {
     color: white;
     text-align: justify;
     text-align: right;
+    flex: 1;
   }
   form {
     text-align: center;
