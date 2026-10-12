@@ -89,16 +89,17 @@ html {
 
 section {
   display: flex;
+  justify-content: space-evenly;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: verdana;
   display: grid;
   grid-gap: 1em;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: verdana;
   margin: 0;
   color: white;
 }
