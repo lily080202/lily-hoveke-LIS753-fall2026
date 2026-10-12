@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(200, 246, 243);
+    background-color: rgb(98, 73, 208);
 }
 
 h1 {
@@ -15,7 +15,8 @@ h2 {
 }
 
 p {
-    font-style: italic;
+    font-style: normal;
+    font-family: verdana;
 }
 
 li {
@@ -136,13 +137,14 @@ article {
   margin: 10px;
   background: rgb(25, 4, 123);
   word-spacing: 0.5em;
-  flex: 1;
+  flex: 5;
 }
   footer {
+    background: rgb(25, 4, 123);
     color: white;
     text-align: justify;
     text-align: right;
-    flex: 1;
+    flex: 5;
   }
   form {
     text-align: center;
@@ -159,5 +161,5 @@ article {
   cursor: pointer; 
   }
 .button:hover{
-  background-color: lightseagreen;
+  background-color: rgb(161, 196, 240);
 }
