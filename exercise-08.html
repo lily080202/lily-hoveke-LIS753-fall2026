@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My test page</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body> 
+
+    <h1>Fictional Midwest Library</h1>
+
+    
+    <div class="flex-container">
+        
+        
+        <div class="left-column">
+            <section>
+                <article> 
+                    <div class="table-container">
+                        <h2>Library Events</h2>
+                        <table> 
+                            <caption>Upcoming Programs</caption>
+                            <thead>
+                                <tr>
+                                    <th>Program</th>
+                                    <th>Date</th>
+                                    <th>Time</th>
+                                    <th>Location</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Community Book Club</td>
+                                    <td>10-08-2026</td>
+                                    <td>6:30 PM</td>
+                                    <td>Room A</td>
+                                </tr>
+                                <tr>
+                                    <td>Family Story Time</td>
+                                    <td>10-10-2026</td>
+                                    <td>10:00 AM</td>
+                                    <td>Children's Room</td>
+                                </tr>
+                                <tr>
+                                    <td>Genealogy Workshop</td>
+                                    <td>10-12-2026</td>
+                                    <td>2:00 PM</td>
+                                    <td>Room B</td>
+                                </tr>
+                                <tr>
+                                    <td>Intro to 3D Printing</td>
+                                    <td>10-15-2026</td>
+                                    <td>6:00 PM</td>
+                                    <td>Makerspace</td>
+                                </tr>
+                                <tr>
+                                    <td>Local History Talk</td>
+                                    <td>10-18-2026</td>
+                                    <td>1:00 PM</td>
+                                    <td>Auditorium</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article> 
+            </section>   
+        </div> 
+
+        
+        <div class="column right-column">
+            <h3>Register For A Program</h3>
+            <form>
+                <div>
+                    <label for="name">Name</label> 
+                    <input type="text" name="name" placeholder="Your Name" required> 
+                </div>
+                <div>
+                    <label for="email">Email</label> 
+                    <input type="email" name="email" placeholder="Your Email" required> 
+                </div>
+                <div>
+                    <label for="program">Select a Program</label>
+                    <select name="program" id="program" required>
+                        <option value="">-- Please choose an option --</option>
+                        <option value="community-book-club">Community Book Club</option>
+                        <option value="family-story-time">Family Story Time</option>
+                        <option value="genealogy-workshop">Genealogy Workshop</option>
+                        <option value="intro-to-3d-printing">Intro to 3D Printing</option>
+                        <option value="local-history-talk">Local History Talk</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="radio" value="In Person" name="attendance" id="in-person">
+                    <label for="in-person">In Person</label>
+                    <input type="radio" value="Virtual" name="attendance" id="virtual">
+                    <label for="virtual">Virtual</label> 
+                </div>
+                <div>
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div> 
+
+    </div> 
+
+    <section>
+        <article>
+            <footer>
+                <div class="outer-box">
+                    <div class="inner-box">
+                        <button type="button">Contact Us</button>
+                    </div>
+                </div>
+                <p>Fictional Midwest Library 773-555-1234</p>
+                <p>Hours: 9am-9pm Monday-Friday 9am-5pm Saturday 12pm-5pm Sunday</p>
+                <p>Accessibility Links / Social Links</p>
+            </footer>
+        </article>
+    </section>
+
+</body> 
+</html>

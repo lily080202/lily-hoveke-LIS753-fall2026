@@ -45,27 +45,6 @@ li {
     padding: 22px;
 }
 
-#Main-Menu ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 14px;
-    list-style-type: none;
-    margin: 32px;
-}
-
-#Main-Menu ul li a {
-    padding: 10px 20px;
-    background-color: rgb(139, 153, 244);
-    color: white;
-    text-decoration: none;
-    text-align: center;
-}
-
-#Main-Menu ul li a:hover {
-    background-color: lightblue;
-}
-
 .introduction {
     background-color: rgb(246, 191, 246);
     color: white;
@@ -293,4 +272,72 @@ button:hover{
 .column.right-column form div {
   margin-bottom: 15px;               
   text-align: left;                  
+}
+
+@media all and (min-width: 375px) {
+body {
+padding: 5px;
+}
+h1 {
+font-size: 2rem;
+}
+}
+
+@media all and (min-width: 768px) {
+h1 {
+font-size: 3rem;
+}
+
+.flex-container {
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.left-column, .right-column {
+flex: 1;
+min-width: 300px;
+}
+
+#Main-Menu ul {
+flex-direction: row;
+justify-content: center;
+gap: 15px;
+}
+}
+
+@media all and (min-width: 1200px) {
+  body {
+max-width: 1400px;
+margin: 0 auto;
+padding: 20px;
+}
+
+h1 {
+font-size: 4rem;
+}
+
+.flex-container {
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+.left-column {
+flex: 2;
+}
+
+.right-column {
+flex: 1;
+position: sticky;
+top: 20px;
+}
+
+#Main-Menu ul {
+gap: 25px;
+}
+
+#Main-Menu ul li a {
+padding: 12px 24px;
+}
+}
 }
