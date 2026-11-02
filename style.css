@@ -344,9 +344,9 @@ padding: 12px 24px;
 .readers-advisory-page {
   background-color: #034790;
   display: flex;
-  flex-direction: center;
-  align-items: center;    
-  text-align: left;     
+  flex-direction: column;
+  align-items: left;    
+  text-align: center;     
   gap: 16px;              
   margin-top: 50px;
 }
@@ -357,7 +357,6 @@ padding: 12px 24px;
   align-items: flex-start;
   gap: 8px;
   padding-left: 20px;
-  list-style-position: inside; 
-  text-align: left; 
-  display: inline-block; 
+  list-style-position: outside; 
+  text-align: left;  
 }
