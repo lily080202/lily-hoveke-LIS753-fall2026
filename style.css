@@ -360,3 +360,10 @@ padding: 12px 24px;
   list-style-position: outside; 
   text-align: left;  
 }
+
+.readers-advisory-page #message-button {
+  padding: 16px 16px;       
+  width: fit-content;      
+  font-size: 16px;         
+}
+
