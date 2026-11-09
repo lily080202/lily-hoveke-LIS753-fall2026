@@ -14,11 +14,11 @@ button.addEventListener("click", function () {
 
 
     // Find and show the relevant program details
-      const targetId = button.dataset.target;
-      const targetElement = document.getElementById(targetId);
-
-      if (targetElement) {
-        targetElement.hidden = false;
+      // Find and show the relevant clicked program
+        const targetId = button.dataset.target;
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            targetElement.hidden = false;
       }
 
       else {
