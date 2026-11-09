@@ -21,6 +21,10 @@ button.addEventListener("click", function () {
         targetElement.hidden = false;
       }
 
+      else {
+        document.querySelector(".program-details").textContent = "Show Message";
+      }
+
   });
   
 });
