@@ -5,18 +5,18 @@ buttons.forEach( function(button) {
 
 
 
-button.addEventListener("click", function(){
+button.addEventListener("click", function () {
 
- // hide all details divs
-details.forEach(function(item) {
-  item.hidden = true;
-});
+    // hide all details divs
+    details.forEach(function (item) {
+      item.hidden = true;
+    });
 
 
-// find and show the relevant program details
-const target = button.dataset.target;
-document.getElementById(target).hidden = false
-  
-});
+    // find and show the relevant program details
+    const target = button.dataset.target;
+    document.getElementById(target).hidden = false;
+
+  });
   
 });
