@@ -13,9 +13,13 @@ button.addEventListener("click", function () {
     });
 
 
-    // find and show the relevant program details
-    const target = button.dataset.target;
-    document.getElementById(target).hidden = false;
+    // Find and show the relevant program details
+      const targetId = button.dataset.target;
+      const targetElement = document.getElementById(targetId);
+
+      if (targetElement) {
+        targetElement.hidden = false;
+      }
 
   });
   
