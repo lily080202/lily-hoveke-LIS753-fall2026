@@ -35,18 +35,21 @@
                                     <td>10-08-2026</td>
                                     <td>6:30 PM</td>
                                     <td>Room A</td>
+                                    <td> <button type ="details-button" data-target="community-book-club"> View Details</button></td>
                                 </tr>
                                 <tr>
                                     <td>Family Story Time</td>
                                     <td>10-10-2026</td>
                                     <td>10:00 AM</td>
                                     <td>Children's Room</td>
+                                  <td> <button type ="details-button" data-target="familly-story-time"> View Details</button></td>
                                 </tr>
                                 <tr>
                                     <td>Genealogy Workshop</td>
                                     <td>10-12-2026</td>
                                     <td>2:00 PM</td>
                                     <td>Room B</td>
+                                  <td> <button type ="details-button" data-target="genealogy-workshop"> View Details</button></td>
                                 </tr>
                                 <tr>
                                     <td>Intro to 3D Printing</td>
@@ -67,11 +70,22 @@
             </section>   
         </div> 
 
-        <div class ="program-details">
+        <div id ="community-book-club"  class ="program-details">
           <h3> Program Details</h3>
           <p> Click on any program title for more information</p>
+          <div id ="community-book-club"  class ="program-details" hidden>
+            <h3> December Community Book Club</h3>
+            <p> This month we will be discussing Culpability by Bruce Holsinger. The title is about...</p>
         </div>
-        
+          <div id ="family-story-time"  class ="program-details" hidden>
+            <h3> December Family Storytime</h3>
+            <p> Come celebrate winter with special songs and festive titles</p>
+        </div>
+          <div id ="genealogy-workshop"  class ="program-details" hidden>
+            <h3> December Genealogy Workshop</h3>
+            <p> Details about genealogy...</p>
+        </div>
+      
         <div class="column right-column">
             <h3>Register For A Program</h3>
             <form>
@@ -122,6 +136,6 @@
             </footer>
         </article>
     </section>
-
+  <script src="./script-ex-11.js"></script>
 </body> 
 </html>
