@@ -1,41 +1,37 @@
+
 const buttons = document.querySelectorAll(".details-button");
 const details = document.querySelectorAll(".program-details");
 
-buttons.forEach( function(button) {
+buttons.forEach(function(button) {
 
+  button.addEventListener("click", function() {
 
-
-button.addEventListener("click", function () {
-
-    // hide all details divs
+    // Hide all program details
     details.forEach(function(item) {
       item.hidden = true;
     });
 
-
     // Find and show the relevant program details
-        const targetId = button.dataset.target;
-        document.getElementById.apply(document, [targetId]).hidden = false;
-        const targetElement = document.getElementById(targetId);
-        if (targetElement) {
-            targetElement.hidden = false;
-      }
+    const targetId = button.dataset.target;
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      targetElement.hidden = false;
+    }
+
   });
-  
+
 });
 
-const form = document.querySelector("#form");
+const form = document.querySelector("#registration-form");
 
 form.addEventListener("submit", function(event) {
-  event.preventDefault(); 
+  event.preventDefault();
 
   const name = document.querySelector("#name").value;
   const program = document.querySelector("#program").value;
 
-  const message = "Thanks " + name + " for registering for " + program + " !"
-  
-  
-  console.log(message);
+  const message = "Thanks " + name + " for registering for " + program + " !";
 
-  
+  console.log(message);
 });

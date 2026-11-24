@@ -56,12 +56,18 @@
                                     <td>10-15-2026</td>
                                     <td>6:00 PM</td>
                                     <td>Makerspace</td>
+                                    <td> <button class="details-button" data-target="intro-to-3d-printing">
+    View Details
+</button> </td>
                                 </tr>
                                 <tr>
                                     <td>Local History Talk</td>
                                     <td>10-18-2026</td>
                                     <td>1:00 PM</td>
                                     <td>Auditorium</td>
+                                    <td> <button class="details-button" data-target="local-history-talk">
+    View Details
+</button> </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -70,7 +76,7 @@
             </section>   
         </div> 
 
-        <div id ="detail-wrapper" class ="program-details">
+        <div id ="detail-wrapper" class="program-details">
           <h3> Program Details</h3>
           <p> Click on any program title for more information</p>
           <div id ="community-book-club" class ="program-details" hidden>
@@ -89,7 +95,7 @@
       
         <div class="column right-column">
             <h3>Register For A Program</h3>
-            <form>
+            <form id="registration-form">
                 <div>
                     <label for="name"> Your Name</label> 
                     <input type="text" id="name" name="name" placeholder="Your Name" required> 
