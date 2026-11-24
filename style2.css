@@ -308,7 +308,7 @@ padding: 12px 24px;
   font-size: 16px;         
 }
 
-/* Main three-column layout */
+
 .flex-container {
     display: flex;
     align-items: flex-start;
@@ -316,13 +316,13 @@ padding: 12px 24px;
     width: 100%;
 }
 
-/* Library events column */
+
 .left-column {
     flex: 2;
     min-width: 0;
 }
 
-/* Program details column */
+
 #detail-wrapper {
     flex: 1.5;
     min-width: 0;
@@ -334,7 +334,7 @@ padding: 12px 24px;
     overflow-wrap: break-word;
 }
 
-/* Individual program details */
+
 .program-details {
     padding: 15px;
     margin-top: 15px;
@@ -342,19 +342,19 @@ padding: 12px 24px;
     border-radius: 8px;
 }
 
-/* Registration column */
+
 .column.right-column {
     flex: 1.5;
     min-width: 0;
     box-sizing: border-box;
 }
 
-/* Preserve hidden functionality */
+
 .program-details[hidden] {
     display: none !important;
 }
 
-/* Tablet and smaller screens */
+
 @media (max-width: 767px) {
     .flex-container {
         flex-direction: column;
@@ -366,4 +366,8 @@ padding: 12px 24px;
         width: 100%;
         flex: none;
     }
+}
+
+.confirmation-message {
+    text-align: center;
 }
