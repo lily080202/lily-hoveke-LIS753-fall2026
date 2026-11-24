@@ -4,24 +4,33 @@ const details = document.querySelectorAll(".program-details");
 
 buttons.forEach(function(button) {
 
-  button.addEventListener("click", function() {
+    button.addEventListener("click", function() {
 
-    // Hide all program details
-    details.forEach(function(item) {
-      item.hidden = true;
+        // Find the relevant program details
+        const targetId = button.dataset.target;
+        const targetElement = document.getElementById(targetId);
+
+        if (!targetElement) {
+            return;
+        }
+
+        // Check whether the selected details are currently hidden
+        const isHidden = targetElement.hidden;
+
+        // Hide all program details
+        details.forEach(function(item) {
+            item.hidden = true;
+        });
+
+        // Only show the selected details if they were previously hidden
+        if (isHidden) {
+            targetElement.hidden = false;
+        }
+
     });
 
-    // Find and show the relevant program details
-    const targetId = button.dataset.target;
-    const targetElement = document.getElementById(targetId);
-
-    if (targetElement) {
-      targetElement.hidden = false;
-    }
-
-  });
-
 });
+
 
 const form = document.querySelector("#registration-form");
 
