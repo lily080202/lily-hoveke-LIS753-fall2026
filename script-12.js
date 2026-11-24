@@ -24,13 +24,18 @@ button.addEventListener("click", function () {
   
 });
 
-const form = document.querySelector("form");
+const form = document.querySelector("#form");
 
 form.addEventListener("submit", function(event) {
   event.preventDefault(); 
 
-  const name = document.querySelector("name").value;
+  const name = document.querySelector("#name").value;
+  const program = document.querySelector("#program").value;
 
-  const message = "Thanks NAME for registering for PROGRAM!"
-  alert(message);
+  const message = "Thanks " + name + " for registering for " + program + " !"
+  
+  
+  console.log(message);
+
+  
 });
